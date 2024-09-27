@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+}
+
+.sans {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+}
+
+.pentagon-container {
+    background-color: #4CAF50;
+    /* Border color */
+    display: flex;
+    /* Ensure the container is just around the pentagon */
+    width: 10.2rem;
+    height: 3.7rem;
+    clip-path: polygon(100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(-90deg);
+}
+
+.pentagon {
+    width: 10rem;
+    height: 3.5rem;
+    clip-path: polygon(100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.designer-pentagon {
+    width: 60rem;
+    height: 5rem;
+    clip-path: polygon(100% 38%, 95% 100%, 5% 100%, 0% 38%);
+    transform: rotateX(180deg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::selection {
+    background-color: #4CAF50;
+    /* Background color of selection */
+    color: white;
+    /* Text color of selection */
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-selection {
+    background-color: #4CAF50;
+    color: white;
+}
