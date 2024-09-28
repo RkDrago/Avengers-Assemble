@@ -12,7 +12,7 @@ const About = () => {
                 <div className="min-h-[150svh] w-[90svw] mx-auto text-[#35f048a7] text-center p-32 flex flex-col gap-16 relative">
                     <h1 className="text-8xl font-bold uppercase sans underline">About The Avengers</h1>
                     <p className='font-sans font-semibold uppercase tracking-tighter'>
-                        The Avengers are Earth's mightiest heroes, a team assembled to protect the planet from extraordinary threats
+                        The Avengers are Earth&apos;s mightiest heroes, a team assembled to protect the planet from extraordinary threats
                         that are beyond the capabilities of any individual superhero. Created by legendary comic book writer Stan Lee
                         and artist Jack Kirby, the Avengers made their first appearance in <strong>The Avengers</strong> #1 in 1963 and
                         have since become a central part of the Marvel Universe, both in comics and the Marvel Cinematic Universe (MCU).
@@ -45,14 +45,14 @@ const About = () => {
                             </li>
                         </ul>
                         <ul className='w-[50%] mx-auto font-sans font-semibold uppercase tracking-tighter my-8'>
-                            <strong>Hawkeye (Clint Barton)</strong><br /> A master archer with incredible precision, Clint Barton serves as the team’s eye in the sky with his pinpoint accuracy.
+                            <strong>Hawkeye (Clint Barton)</strong><br /> A master archer with incredible precision, Clint Barton serves as the team&apos;s eye in the sky with his pinpoint accuracy.
                         </ul>
                     </div>
                     <h4 className="text-3xl uppercase sans tracking-wider">
-                        The Avengers’ Mission
+                        The Avengers&apos; Mission
                     </h4>
                     <p className='font-sans font-semibold uppercase tracking-tighter'>
-                        The Avengers’ primary mission is to defend Earth and its inhabitants from any threat. Whether facing alien invasions, artificial intelligence gone rogue,
+                        The Avengers&apos; primary mission is to defend Earth and its inhabitants from any threat. Whether facing alien invasions, artificial intelligence gone rogue,
                         or internal conflicts, the Avengers remain united in their goal of protecting the planet. Their motto, “Avengers Assemble,” represents the call to come together
                         in the face of danger, a symbol of their strength in unity.
                     </p>
@@ -61,7 +61,7 @@ const About = () => {
                     </h4>
                     <p className='font-sans font-semibold uppercase tracking-tighter'>
                         In the Marvel Cinematic Universe, the Avengers were brought to life with their first assembly in the movie The Avengers (2012), directed by Joss Whedon.
-                        Since then, they have become a pop culture phenomenon, playing a central role in shaping the MCU’s Infinity Saga, which culminated in the epic battles of
+                        Since then, they have become a pop culture phenomenon, playing a central role in shaping the MCU&apos;s Infinity Saga, which culminated in the epic battles of
                         Avengers: Infinity War (2018) and Avengers: Endgame (2019).
                     </p>
                     <h4 className="text-3xl uppercase sans tracking-wider">
@@ -69,7 +69,7 @@ const About = () => {
                     </h4>
                     <p className='font-sans font-semibold uppercase tracking-tighter'>
                         Beyond their superheroic exploits, the Avengers represent a symbol of hope, courage, and resilience. Each member, with their own flaws and vulnerabilities,
-                        demonstrates that even the mightiest heroes are human at heart. Together, they inspire us to fight for what’s right, to work together, and to never give up,
+                        demonstrates that even the mightiest heroes are human at heart. Together, they inspire us to fight for what&apos;s right, to work together, and to never give up,
                         no matter how overwhelming the odds may seem.
                     </p>
                 </div>

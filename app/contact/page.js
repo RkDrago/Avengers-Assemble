@@ -12,7 +12,7 @@ const About = () => {
                 <div className=" w-[70svw] mx-auto text-[#35f048a7] p-24 flex flex-col gap-16 relative">
                     <div>
                         <h2 className='text-lg uppercase font-thin sans pb-6'>Liked what you see ?</h2>
-                        <h1 className='text-8xl sans'>Let's talk ..</h1>
+                        <h1 className='text-8xl sans'>Let&apos;s talk ..</h1>
                     </div>
                     <div className="flex justify-between">
                         <div className="">
