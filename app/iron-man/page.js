@@ -5,7 +5,7 @@ import Rightbar from '../components/Rightbar'
 import Scrollup from '../components/Scrollup'
 import Footer from '../components/Footer'
 
-function page() {
+function Page() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
