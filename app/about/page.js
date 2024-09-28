@@ -53,7 +53,7 @@ const About = () => {
                     </h4>
                     <p className='font-sans font-semibold uppercase tracking-tighter'>
                         The Avengers&apos; primary mission is to defend Earth and its inhabitants from any threat. Whether facing alien invasions, artificial intelligence gone rogue,
-                        or internal conflicts, the Avengers remain united in their goal of protecting the planet. Their motto, “Avengers Assemble,” represents the call to come together
+                        or internal conflicts, the Avengers remain united in their goal of protecting the planet. Their motto, &quot;Avengers Assemble,&quot; represents the call to come together
                         in the face of danger, a symbol of their strength in unity.
                     </p>
                     <h4 className="text-3xl uppercase sans tracking-wider">
