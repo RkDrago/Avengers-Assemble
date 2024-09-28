@@ -3,7 +3,7 @@ import Leftbar from '../components/Leftbar';
 import Rightbar from '../components/Rightbar';
 import Footer from '../components/Footer';
 
-const About = () => {
+const Contact = () => {
     return (
         <>
             <div className="bg-[#111] min-h-[100svh] relative">
@@ -40,4 +40,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Contact;
