@@ -9,7 +9,7 @@ export default function Home() {
 
   useEffect(() => {
     // GSAP animation to make the avengers.png sprout in from the bottom when the page loads
-    gsap.to(".avengers-img", {
+    gsap.to(".avengers-logo", {
       y: "-100%",
       duration: 1.5, // Duration of the animation
     }
@@ -18,11 +18,6 @@ export default function Home() {
       y: "-85%",
       duration: 0.3, // Duration of the animation
       delay: 1.6
-    }
-    );
-    gsap.to(".logo", {
-      opacity: 1,
-      duration: 1.5, // Duration of the animation
     }
     );
   }, []);
@@ -39,7 +34,7 @@ export default function Home() {
             <div className="w-[7rem] h-[4rem] absolute top-3 left-[10.3rem] z-10 overflow-hidden">
               <h1 className="the-peeking font-extrabold sans text-6xl absolute top-[100%] text-white">THE</h1>
             </div>
-            <img className="w-[40rem] avengers-img invert absolute top-[100%]" src="/imgs/avengers.png" alt="" draggable="false" />
+            <img className="w-[40rem] avengers-logo invert absolute top-[100%]" src="/imgs/avengers.png" alt="" draggable="false" />
           </div>
         </div>
         <Footer />

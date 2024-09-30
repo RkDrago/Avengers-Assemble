@@ -1,13 +1,33 @@
-"use client";
+"use client"
 import React, { useEffect } from "react";
+import gsap from "gsap";
 import Leftbar from "../components/Leftbar";
 import Rightbar from "../components/Rightbar";
 import Scrollup from "../components/Scrollup";
 import Footer from "../components/Footer";
 
 function Page() {
+
   useEffect(() => {
     window.scrollTo(0, 0);
+    // GSAP animation to make the avengers.png sprout in from the bottom when the page loads
+    gsap.to(".avenger-img", {
+      top: "-6%",
+      left: "7%",
+      height: "16rem",
+      width: "16rem",
+      duration: 1.5, // Duration of the animation
+      ease: "power4.out",
+      // rotate: "-1080",
+    }
+    );
+    gsap.to(".avengers-page", {
+      backgroundColor: "#35f0486d",
+      borderColor: "#4CAF50",
+      text: "black",
+      duration: 1.5, // Duration of the animation
+    }
+    );
   }, []);
 
   return (
@@ -16,9 +36,9 @@ function Page() {
         <Leftbar />
         <Rightbar />
         <div className="bg-[#111] py-[20svh]">
-          <div className="min-h-[150svh] w-[80svw] mx-auto bg-[#35f0486d] rounded-[4rem] border-double border-8 border-[#4CAF50] text-center p-24 flex flex-col gap-14 relative">
+          <div className="min-h-[150svh] w-[80svw] mx-auto rounded-[4rem] border-double border-8 text-center p-24 flex flex-col gap-14 relative avengers-page text-[#111] border-[#111]">
             <div
-              className="w-[15rem] h-[15rem] bg-green-500 border-double border-4 border-[#4CAF50] rounded-full bg-[url(/imgs/blackpanther.webp)] bg-cover absolute -top-[7rem] left-[4rem]"
+              className="w-[3rem] h-[3rem] bg-green-500 border-double border-4 border-[#4CAF50] rounded-full bg-[url(/imgs/blackpanther.webp)] bg-cover absolute top-[-0.3%] left-[108.8%] avenger-img"
             ></div>
             <h1 className="text-5xl font-bold uppercase sans underline">
               Black Panther

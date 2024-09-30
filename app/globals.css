@@ -7,12 +7,12 @@
 }
 
 .sans {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 ::-webkit-scrollbar {
     width: 0px;
-    height: 0px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    height: 0px;
 }
 
 .pentagon-container {
@@ -32,6 +32,12 @@
     clip-path: polygon(100% 38%, 82% 100%, 18% 100%, 0% 38%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.active .pentagon {
+    background-color: #4CAF50;
+    color: black;
+}
+
 .designer-pentagon {
     width: 60rem;
     height: 5rem;
@@ -51,4 +57,8 @@
 ::-webkit-selection {
     background-color: #4CAF50;
     color: white;
+}
+
+.custom-shadow {
+    box-shadow: 0px 5px 10px 2px rgb(0, 0, 0);
 }
