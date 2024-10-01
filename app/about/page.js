@@ -1,16 +1,27 @@
 "use client"
-import React from 'react';
+import React, {useEffect} from 'react';
+import gsap from 'gsap';
 import Leftbar from '../components/Leftbar';
 import Rightbar from '../components/Rightbar';
 import Footer from '../components/Footer';
 
 const About = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+
+        gsap.to(".about-page", {
+            color: "#35f048a7",
+            duration: 0.3,
+        });
+    }, []);
+
     return (
         <>
             <div className="bg-[#111] min-h-[100svh] relative pt-[5svh] pb-[20svh]">
                 <Leftbar />
                 <Rightbar />
-                <div className="min-h-[150svh] w-[90svw] mx-auto text-[#35f048a7] text-center p-32 flex flex-col gap-16 relative">
+                <div className="about-page min-h-[150svh] w-[90svw] mx-auto text-[#111] text-center p-32 flex flex-col gap-16 relative">
                     <h1 className="text-8xl font-bold uppercase sans underline">About The Avengers</h1>
                     <p className='font-sans font-semibold uppercase tracking-tighter'>
                         The Avengers are Earth&apos;s mightiest heroes, a team assembled to protect the planet from extraordinary threats

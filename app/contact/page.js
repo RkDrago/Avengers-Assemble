@@ -1,16 +1,29 @@
 "use client"
-import React from 'react';
+import React, {useEffect} from 'react';
+import gsap from 'gsap';
 import Leftbar from '../components/Leftbar';
 import Rightbar from '../components/Rightbar';
 import Footer from '../components/Footer';
 
 const Contact = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+
+        gsap.to(".contact-page", {
+            opacity: "0",
+            display: "none",
+            duration: 0.3,
+        });
+    }, []);
+
     return (
         <>
             <div className="bg-[#111] min-h-[100svh] relative">
                 <Leftbar />
                 <Rightbar />
                 <div className=" w-[70svw] mx-auto text-[#35f048a7] p-24 flex flex-col gap-12 relative">
+                    <div className="absolute bg-[#111] opacity-1 h-full w-full top-0 left-0 z-20 contact-page"></div>
                     <div>
                         <h2 className='text-lg uppercase font-thin sans pb-6'>Liked what you see ?</h2>
                         <h1 className='text-8xl sans'>Let&apos;s talk ..</h1>
