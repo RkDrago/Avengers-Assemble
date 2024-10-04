@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Rightbar from "./components/Rightbar";
 import Leftbar from "./components/Leftbar";
 import Footer from "./components/Footer";
+import Chart from "./components/Chart";
 
 export default function Home() {
 
@@ -12,6 +13,7 @@ export default function Home() {
     gsap.to(".avengers-logo", {
       y: "-100%",
       duration: 1.5, // Duration of the animation
+      ease: "bounce.out",
     }
     );
     gsap.to(".the-peeking", {
@@ -29,14 +31,15 @@ export default function Home() {
       <div className="bg-[#111] min-h-[100svh] relative">
         <Leftbar />
         <Rightbar />
-        <div className="h-[100svh] w-[100svw] flex justify-center items-center relative">
+        <div className="w-[100svw] flex justify-center md:pt-56 md:items-center relative">
           <div className="relative w-[40rem] h-[20rem] overflow-hidden">
-            <div className="w-[7rem] h-[4rem] absolute top-3 left-[10.3rem] z-10 overflow-hidden">
+            <div className="w-[7rem] h-[4rem] absolute md:top-3 md:left-[10.3rem] top-[6.4rem] left-[25%] z-10 overflow-hidden hidden md:block">
               <h1 className="the-peeking font-extrabold sans text-6xl absolute top-[100%] text-white">THE</h1>
             </div>
-            <img className="w-[40rem] avengers-logo invert absolute top-[100%]" src="/imgs/avengers.png" alt="" draggable="false" />
+            <img className="bg-[#eeeeee] w-[40rem] avengers-logo invert absolute top-[100%]" src="/imgs/avengers.png" alt="" draggable="false" />
           </div>
         </div>
+        <Chart/>
         <Footer />
       </div>
     </>

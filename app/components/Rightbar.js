@@ -6,7 +6,7 @@ const Rightbar = () => {
 
     return (
         <div>
-            <div className="flex flex-col h-full w-[17svw] gap-4 items-end justify-center fixed right-0 top-0 pr-2 z-20">
+            <div className="hidden md:flex flex-col h-full w-[17svw] gap-4 items-end justify-center fixed right-0 top-0 pr-2 z-20 ">
                 <Link href={"/black-panther"}>
                     <div
                         className="custom-shadow circle w-[3rem] h-[3rem] bg-green-100 border-double border-4 border-[#4CAF50] rounded-full bg-[url(/imgs/blackpanther.webp)] bg-cover group transition-all duration-500 delay-200 relative"

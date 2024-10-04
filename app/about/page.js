@@ -18,11 +18,11 @@ const About = () => {
 
     return (
         <>
-            <div className="bg-[#111] min-h-[100svh] relative pt-[5svh] pb-[20svh]">
+            <div className="bg-[#111] min-h-[100svh] relative pt-[10svh] pb-[20svh]">
                 <Leftbar />
                 <Rightbar />
-                <div className="about-page min-h-[150svh] w-[90svw] mx-auto text-[#111] text-center p-32 flex flex-col gap-16 relative">
-                    <h1 className="text-8xl font-bold uppercase sans underline">About The Avengers</h1>
+                <div className="about-page min-h-[150svh] w-[92svw] mx-auto text-[#111] text-center md:p-32 flex flex-col gap-16 relative">
+                    <h1 className="md:text-8xl text-4xl md:font-bold uppercase sans underline">About The Avengers</h1>
                     <p className='font-sans font-semibold uppercase tracking-tighter'>
                         The Avengers are Earth&apos;s mightiest heroes, a team assembled to protect the planet from extraordinary threats
                         that are beyond the capabilities of any individual superhero. Created by legendary comic book writer Stan Lee
@@ -42,7 +42,7 @@ const About = () => {
                         The Original Team
                     </h4>
                     <div className="">
-                        <ul className="font-sans font-semibold uppercase tracking-tighter grid grid-cols-2 gap-8">
+                        <ul className="font-sans font-semibold uppercase tracking-tighter grid md:grid-cols-2 gap-8">
                             <li className='px-10'>
                                 <strong>Iron Man (Tony Stark)</strong><br /> The genius billionaire inventor who dons a high-tech suit of armor, offering  incredible firepower, flight, and defense.
                             </li>
