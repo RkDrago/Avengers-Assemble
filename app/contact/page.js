@@ -28,7 +28,7 @@ const Contact = () => {
                         <h2 className='text-lg uppercase font-thin sans pb-6'>Liked what you see ?</h2>
                         <h1 className='md:text-8xl text-6xl sans'>Let&apos;s talk ..</h1>
                     </div>
-                    <div className="flex flex-col md:flex-row md:justify-between">
+                    <div className="flex flex-col md:flex-row md:justify-between gap-[8rem]">
                         <div className="md:w-[50%]">
                             <form className="contact-form flex flex-col gap-3 relative">
                                 <div className="form-group flex flex-col gap-1 z-10">
@@ -52,7 +52,7 @@ const Contact = () => {
                                 </button>
                             </form>
                         </div>
-                        <div className='md:w-[5svw] flex md:flex-col md:justify-end justify-center md:items-end pt-[10rem] gap-4 md:gap-0'>
+                        <div className='md:w-[5svw] flex md:flex-col md:justify-end justify-center md:items-end gap-4 md:gap-0'>
                             <a
                                 href="mailto:rudrakp.india@gmail.com"
                                 className='bg-[#3d3d3daa] h-[4rem] w-[4rem] rounded-full flex justify-center items-center hover:bg-[#3d3d3dda] transition-all mb-5'>
