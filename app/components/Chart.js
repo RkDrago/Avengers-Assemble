@@ -10,8 +10,8 @@ const Chart = () => {
         gsap.to(".chart-page", {
             opacity: "0",
             display: "none",
-            duration: 2.5,
-            delay: 2.5,
+            duration: 1.5,
+            delay: 1,
         });
     }, []);
 

@@ -73,7 +73,7 @@ const Scrollup = () => {
     return (
         <>
             <div
-                className="track fixed bottom-36 left-28 py-8">
+                className="track hidden lg:block fixed bottom-36 left-28 py-8">
                 <div
                     className='w-2 h-[52svh] bg-[#4caf4f99] rounded-full'>
                     <div

@@ -35,10 +35,10 @@ function Page() {
             <div className="relative">
                 <Leftbar />
                 <Rightbar />
-                <div className="bg-[#111] min-h-[100svh] py-[20svh]">
-                    <div className="min-h-[150svh] w-[80svw] mx-auto rounded-[4rem] border-double border-8 text-center p-24 flex flex-col gap-14 relative avengers-page text-[#111] border-[#111]">
+                <div className="bg-[#111] py-[20svh]">
+                    <div className="min-h-[150svh] md:w-[80svw] w-[95svw] mx-auto rounded-[4rem] border-double border-8 text-center md:p-24 p-6 flex flex-col gap-14 relative avengers-page text-[#111] border-[#111]">
                         <div
-                            className="w-[3rem] h-[3rem] border-double border-4 border-[#4CAF50] rounded-full bg-[url(/imgs/blackwidow.jpg)] bg-cover bg-center absolute top-[12.7%] left-[108.8%] avenger-img"
+                            className="w-[3rem] h-[3rem] border-double border-4 border-[#4CAF50] rounded-full bg-[url(/imgs/blackwidow.jpg)] bg-cover bg-center absolute top-[12.7%] left-[108.8%] avenger-img hidden md:block"
                         ></div>
                         <h1 className="text-5xl font-bold uppercase sans underline">
                             Black Widow
