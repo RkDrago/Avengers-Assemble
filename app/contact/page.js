@@ -22,7 +22,7 @@ const Contact = () => {
             <div className="bg-[#111] min-h-[100svh] relative">
                 <Leftbar />
                 <Rightbar />
-                <div className=" md:w-[70svw] w-[92svw] mx-auto text-[#35f048a7] md:p-24 py-24 flex flex-col gap-12 relative">
+                <div className=" md:w-[70svw] w-[92svw] mx-auto text-[#35f048a7] md:p-24 pt-24 flex flex-col gap-12 relative">
                     <div className="absolute bg-[#111] opacity-1 h-full w-full top-0 left-0 z-20 contact-page"></div>
                     <div>
                         <h2 className='text-lg uppercase font-thin sans pb-6'>Liked what you see ?</h2>
