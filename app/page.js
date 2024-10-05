@@ -34,7 +34,7 @@ export default function Home() {
         <div className="w-[100svw] flex md:pt-56 relative">
           <div className="relative w-[40rem] h-[20rem]">
             <div className="w-[7rem] h-[4rem] absolute md:top-3 md:left-[calc(50svw-9.8rem)] top-[5.3rem] left-[47%] z-10 overflow-hidden">
-              <h1 className="the-peeking font-extrabold sans text-6xl md:text-7xl absolute top-[100%] text-white">THE</h1>
+              <h1 className="the-peeking font-extrabold sans text-6xl absolute top-[100%] text-white">THE</h1>
             </div>
             <img className="bg-[#eeeeee] md:w-[40rem] w-[20rem] avengers-logo invert absolute top-[-65%] left-[calc(50svw-10rem)] md:left-[calc(50svw-20rem)] md:top-[-200%]" src="/imgs/avengers.png" alt="" draggable="false" />
           </div>
