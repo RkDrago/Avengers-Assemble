@@ -35,10 +35,10 @@ function Page() {
             <div className="relative">
                 <Leftbar />
                 <Rightbar />
-                <div className="bg-[#111] py-[20svh]">
+                <div className="bg-[#111] py-[25svh]">
                     <div className="min-h-[150svh] md:w-[80svw] w-[95svw] mx-auto rounded-[4rem] border-double border-8 text-center md:p-24 p-6 flex flex-col gap-14 relative avengers-page text-[#111] border-[#111]">
                         <div
-                            className="w-[3rem] h-[3rem] border-double border-4 border-[#4CAF50] rounded-full bg-[url(/imgs/cap.avif)] bg-cover bg-center absolute top-[9.4%] left-[108.8%] avenger-img hidden md:block"
+                            className="md:w-[3rem] w-[10rem] md:h-[3rem] h-[10rem] border-double border-4 border-[#4CAF50] rounded-full bg-[url(/imgs/cap.avif)] bg-cover bg-center absolute md:top-[27.5%] -top-36 md:left-[108.8%] left-[calc(50%-5rem)] md:avenger-img md:block"
                         ></div>
                         <h1 className="text-5xl font-bold uppercase sans underline">captain America</h1>
                         <p className='font-sans font-semibold text-lg tracking-tighter'>

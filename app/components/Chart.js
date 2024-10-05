@@ -11,7 +11,7 @@ const Chart = () => {
             opacity: "0",
             display: "none",
             duration: 1.5,
-            delay: 1,
+            delay: 0.5,
         });
     }, []);
 
