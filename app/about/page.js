@@ -22,7 +22,7 @@ const About = () => {
                 <Leftbar />
                 <Rightbar />
                 <div className="about-page min-h-[150svh] w-[92svw] mx-auto text-[#111] text-center md:p-32 flex flex-col gap-16 relative">
-                    <h1 className="md:text-8xl text-4xl md:font-bold uppercase sans underline">About The Avengers</h1>
+                    <h1 className="md:text-8xl text-4xl font-bold uppercase sans underline">About The Avengers</h1>
                     <p className='font-sans font-semibold uppercase tracking-tighter'>
                         The Avengers are Earth&apos;s mightiest heroes, a team assembled to protect the planet from extraordinary threats
                         that are beyond the capabilities of any individual superhero. Created by legendary comic book writer Stan Lee
