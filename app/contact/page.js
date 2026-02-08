@@ -59,7 +59,7 @@ const Contact = () => {
                                 <img className='w-8' src="/icons/email.svg" alt="mail" />
                             </a>
                             <a
-                                href="https://www.linkedin.com"
+                                href="https://www.linkedin.com/in/rudra-kant-pandey-95bb92280/"
                                 className='bg-[#3d3d3daa] h-[4rem] w-[4rem] rounded-full flex justify-center items-center hover:bg-[#3d3d3dda] transition-all'>
                                 <img className='w-8' src="/icons/linkedin.svg" alt="linkedin" />
                             </a>
